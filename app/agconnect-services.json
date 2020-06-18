@@ -1,0 +1,28 @@
+{
+	"agcgw":{
+		"backurl":"connect-dre.dbankcloud.cn",
+		"url":"connect-dre.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"YOUR APP INFO FROM APP GALLERY",
+		"product_id":"YOUR APP INFO FROM APP GALLERY",
+		"client_id":"YOUR APP INFO FROM APP GALLERY",
+		"client_secret":"YOUR APP INFO FROM APP GALLERY",
+		"app_id":"YOUR APP INFO FROM APP GALLERY",
+		"package_name":"com.isoguzay.inappcodelab",
+		"api_key":"YOUR APP INFO FROM APP GALLERY",
+		"app_secret": "YOUR APP INFO FROM APP GALLERY"
+	},
+	"service":{
+		"analytics":{
+			"collector_url":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
+			"resource_id":"p1",
+			"channel_id":""
+		},
+		"ml":{
+			"mlservice_url":"ml-api-dre.ai.dbankcloud.com,ml-api-dre.ai.dbankcloud.cn"
+		}
+	},
+	"region":"DE",
+	"configuration_version":"1.0"
+}
