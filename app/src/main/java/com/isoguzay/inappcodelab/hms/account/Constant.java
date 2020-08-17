@@ -23,12 +23,12 @@ public class Constant {
     //login
     public static final int REQUEST_SIGN_IN_LOGIN = 1002;
     //login by code
-    public static final int REQUEST_SIGN_IN_LOGIN_CODE = 1003;
+        public static final int REQUEST_SIGN_IN_LOGIN_CODE = 1003;
 
     /**
      * your app’s client ID,please replace it of yours
      */
-    public static final String CLIENT_ID = "367156027386234048";
+    public static final String CLIENT_ID = "408641903366505600";
 
     /**
      * JWK JSON Web Key endpoint, developer can get the JWK of the last two days from this endpoint

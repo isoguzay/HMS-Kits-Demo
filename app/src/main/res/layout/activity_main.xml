@@ -8,6 +8,18 @@
 
 
     <Button
+        android:id="@+id/button_drive"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Drive Kit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_analytics"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <Button
         android:id="@+id/button_push"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -17,31 +29,7 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298" />
-
-    <Button
-        android:id="@+id/button_get"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="Account and Push Kit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
-
-    <Button
-        android:id="@+id/button_map"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="Open Hms Map"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.076" />
 
     <Button
         android:id="@+id/button_analytics"
@@ -53,6 +41,78 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648" />
+        app:layout_constraintVertical_bias="0.323" />
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Open Hms Map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/button_get"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Account and Push Kit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Location Kit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_drive"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/button_game_service"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Game Service"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_location"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <Button
+        android:id="@+id/button_scan_kit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Scan Kit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_game_service"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Button
+        android:id="@+id/button_ml_kit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="ML Kit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_scan_kit"
+        app:layout_constraintVertical_bias="0.085" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,6 @@ class PushActivity : AppCompatActivity() {
 
         button_push_message.setOnClickListener {
             PushManager.getAccessToken()
-            PushManager.getDeviceIdToken(applicationContext)
         }
 
     }

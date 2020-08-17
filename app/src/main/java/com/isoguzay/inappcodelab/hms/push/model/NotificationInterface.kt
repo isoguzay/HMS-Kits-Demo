@@ -8,7 +8,7 @@ import retrofit2.http.POST
 
 interface NotificationInterface {
     @Headers("Content-Type:application/json; charset=UTF-8")
-    @POST("v1/102253619/messages:send")
+    @POST("v1/102582549/messages:send")
     fun createNotification(
         @Header("Authorization") authorization: String?,
         @Body notificationMessageBody: NotificationMessageBody

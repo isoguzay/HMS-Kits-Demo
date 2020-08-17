@@ -4,20 +4,22 @@
 		"url":"connect-dre.hispace.hicloud.com"
 	},
 	"client":{
-		"cp_id":"YOUR APP INFO FROM APP GALLERY",
-		"product_id":"YOUR APP INFO FROM APP GALLERY",
-		"client_id":"YOUR APP INFO FROM APP GALLERY",
-		"client_secret":"YOUR APP INFO FROM APP GALLERY",
-		"app_id":"YOUR APP INFO FROM APP GALLERY",
+		"cp_id":"890090000023105643",
+		"product_id":"736430079244571281",
+		"client_id":"408641903366505600",
+		"client_secret":"7009644D382A96963E4BA324CBB2AE7F48CBE9432FB5E6AE32AF4F51942CB239",
+		"app_id":"102582549",
 		"package_name":"com.isoguzay.inappcodelab",
-		"api_key":"YOUR APP INFO FROM APP GALLERY",
-		"app_secret": "YOUR APP INFO FROM APP GALLERY"
+		"api_key":"CgB6e3x9zgywF7lye0g75eGf1RjvlR6XXevEOPIMDQLX1x++wLfuZcrx8yzT9pnVfYdMVUMiWxrsWs1JjOEu9QRQ"
 	},
 	"service":{
 		"analytics":{
 			"collector_url":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
 			"resource_id":"p1",
 			"channel_id":""
+		},
+		"cloudstorage":{
+			"storage_url":"https://agc-storage-dre.platform.dbankcloud.cn"
 		},
 		"ml":{
 			"mlservice_url":"ml-api-dre.ai.dbankcloud.com,ml-api-dre.ai.dbankcloud.cn"

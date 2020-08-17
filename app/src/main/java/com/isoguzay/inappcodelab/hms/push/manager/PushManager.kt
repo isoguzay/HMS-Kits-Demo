@@ -42,8 +42,8 @@ class PushManager {
             AccessTokenClient.getClient().create(AccessTokenInterface::class.java)
                 .createAccessToken(
                     "client_credentials",
-                    "a27be5d4eefcc5653374575b600542e0cd273f59b7e9402709058289bb508bd9",
-                    "102253619"
+                    "4b651a75a4f26590f6a454b78661a462e016323ca2dbc058210acb3841c7b10b",
+                    "102582549"
                 )
                 .enqueue(object : Callback<AccessToken> {
                     override fun onFailure(call: Call<AccessToken>, t: Throwable) {
